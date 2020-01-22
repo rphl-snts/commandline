@@ -1,21 +1,14 @@
 # Commandline
 
-**TODO: Add description**
+A simple CLI built with Elixir
 
-## Installation
+## Building and executing
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `commandline` to your list of dependencies in `mix.exs`:
+Run the following command to build your project from the project root directory: `mix escript.build`
 
-```elixir
-def deps do
-  [
-    {:commandline, "~> 0.1.0"}
-  ]
-end
-```
+This creates an executable file with name `commandline`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/commandline](https://hexdocs.pm/commandline).
+Run the executable file with and argument: `./commandline --file filename`
 
+## Reference
+[writing the command line application in elixir](https://medium.com/blackode/writing-the-command-line-application-in-elixir-78a8d1b1850)
