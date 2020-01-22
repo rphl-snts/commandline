@@ -1,5 +1,7 @@
 # Commandline
 
+[![Actions Status](https://github.com/rphl-snts/commandline/workflows/elixir-ci/badge.svg)](https://github.com/rphl-snts/commandline/actions)
+
 A simple CLI built with Elixir
 
 ## Building and executing
